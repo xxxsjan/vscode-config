@@ -1,0 +1,20 @@
+{
+  "name": "vscode-config",
+  "version": "1.0.0",
+  "description": "vscode-config",
+  "main": "gen-json.js",
+  "scripts": {
+    "gen-json": "node ./gen-json.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxxsjan/vscode-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxxsjan/vscode-config/issues"
+  },
+  "homepage": "https://github.com/xxxsjan/vscode-config#readme"
+}
