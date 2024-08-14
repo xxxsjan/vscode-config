@@ -4,8 +4,9 @@
   "description": "vscode-config",
   "main": "gen-json.js",
   "scripts": {
-    "gen-json": "node ./gen-json.js",
-    "backup":"code --list-extensions > extensions.txt"
+    "generate-extensions.json": "node ./gen-json.js",
+    "backup:extensions": "node backup-extensions.js",
+    "backup:settings": "node backup-settings.js"
   },
   "repository": {
     "type": "git",
